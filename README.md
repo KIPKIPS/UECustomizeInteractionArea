@@ -1,2 +1,4 @@
 # UECustomizeInteractionArea
 ue4自定义交互区域
+
+适用于不规则的按钮交互区域 重叠部分使用Overlap进行标记
