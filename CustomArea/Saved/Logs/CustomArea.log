@@ -1614,3 +1614,186 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2024.03.14-08.05.54:109][728]LogHttp: Warning: 000001D0614A8F00: libcurl info message cache 7 (Closing connection 9)
 [2024.03.14-08.05.54:109][728]LogHttp: Warning: 000001D0614A8F00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
 [2024.03.14-08.05.54:109][728]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCCACAE5-41A3-5293-58DB-04B003BDD5DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=e06ab7b14c69aa113406608ec70b6ead%7C3a8ce50d75a94a64b681e6c1f8715d73%7C3db8fdad-c0c9-4e4b-a295-703a53a2b9d2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.14-08.10.54:246][625]LogHttp: Warning: 000001D07F766B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCCACAE5-41A3-5293-58DB-04B003BDD5DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=e06ab7b14c69aa113406608ec70b6ead%7C3a8ce50d75a94a64b681e6c1f8715d73%7C3db8fdad-c0c9-4e4b-a295-703a53a2b9d2&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.14-08.10.54:247][625]LogHttp: Warning: 000001D07F766B00: request failed, libcurl error: 0 (No error)
+[2024.03.14-08.10.54:247][625]LogHttp: Warning: 000001D07F766B00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d0091843d0 [can pipeline])
+[2024.03.14-08.10.54:247][625]LogHttp: Warning: 000001D07F766B00: libcurl info message cache 1 (Re-using existing connection! (#10) with host datarouter.ol.epicgames.com)
+[2024.03.14-08.10.54:247][625]LogHttp: Warning: 000001D07F766B00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.87.42.162) port 443 (#10))
+[2024.03.14-08.10.54:247][625]LogHttp: Warning: 000001D07F766B00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.14-08.10.54:247][625]LogHttp: Warning: 000001D07F766B00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2024.03.14-08.10.54:247][625]LogHttp: Warning: 000001D07F766B00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2024.03.14-08.10.54:247][625]LogHttp: Warning: 000001D07F766B00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.14-08.10.54:247][625]LogHttp: Warning: 000001D07F766B00: libcurl info message cache 7 (Closing connection 10)
+[2024.03.14-08.10.54:247][625]LogHttp: Warning: 000001D07F766B00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2024.03.14-08.10.54:581][626]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCCACAE5-41A3-5293-58DB-04B003BDD5DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=e06ab7b14c69aa113406608ec70b6ead%7C3a8ce50d75a94a64b681e6c1f8715d73%7C3db8fdad-c0c9-4e4b-a295-703a53a2b9d2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.14-08.11.38:102][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.14-08.11.38:102][925]LogWorld: BeginTearingDown for /Game/Content/UEDPIE_0_NewMap
+[2024.03.14-08.11.38:102][925]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.14-08.11.38:102][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.14-08.11.38:114][925]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.14-08.11.38:124][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.14-08.11.38:146][925]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.14-08.11.38:146][925]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.03.14-08.11.38:147][925]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.03.14-08.11.38:150][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.14-08.11.38:153][925]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2024.03.14-08.11.38:178][926]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.03.14-08.11.40:555][ 68]Candidate modules for hot reload:
+[2024.03.14-08.11.40:556][ 68]  CustomArea
+[2024.03.14-08.11.40:556][ 68]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CustomArea,2083 CustomAreaEditor Win64 Development -Project="D:/GitHub/UECustomizeInteractionArea/CustomArea/CustomArea.uproject" "D:/GitHub/UECustomizeInteractionArea/CustomArea/CustomArea.uproject"  -IgnoreJunk]
+[2024.03.14-08.11.40:575][ 68]Warning: Starting HotReload took  0.0s.
+[2024.03.14-08.11.59:236][175]CompilerResultsLog: New page: Compilation - Mar 15, 2024, 12:11:59 AM
+[2024.03.14-08.11.59:236][175]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitHub\UECustomizeInteractionArea).
+[2024.03.14-08.11.59:236][175]CompilerResultsLog: Parsing headers for CustomAreaEditor
+[2024.03.14-08.11.59:236][175]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitHub\UECustomizeInteractionArea\CustomArea\CustomArea.uproject" "D:\GitHub\UECustomizeInteractionArea\CustomArea\Intermediate\Build\Win64\CustomAreaEditor\Development\CustomAreaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\kipswang\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2024.03.14-08.11.59:236][175]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2024.03.14-08.11.59:236][175]CompilerResultsLog: Reflection code generated for CustomAreaEditor in 3.3802195 seconds
+[2024.03.14-08.11.59:236][175]CompilerResultsLog: Building CustomAreaEditor...
+[2024.03.14-08.11.59:236][175]CompilerResultsLog: Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.03.14-08.11.59:236][175]CompilerResultsLog: Building 5 actions with 20 processes...
+[2024.03.14-08.11.59:236][175]CompilerResultsLog:   [1/5] AlphaButton.gen.cpp
+[2024.03.14-08.11.59:236][175]CompilerResultsLog:   D:\GitHub\UECustomizeInteractionArea\CustomArea\Source\CustomArea/AlphaButton.h(61): warning C5038: ???ݳ?Ա??UAlphaButton::AdvancedHitAlpha?????? ???ࡰUButton??????ʼ??
+[2024.03.14-08.11.59:236][175]CompilerResultsLog:   [2/5] AlphaButton.cpp
+[2024.03.14-08.11.59:236][175]CompilerResultsLog:   D:\GitHub\UECustomizeInteractionArea\CustomArea\Source\CustomArea\AlphaButton.h(61): warning C5038: ???ݳ?Ա??UAlphaButton::AdvancedHitAlpha?????? ???ࡰUButton??????ʼ??
+[2024.03.14-08.11.59:236][175]CompilerResultsLog:   [3/5] UE4Editor-CustomArea-2083.lib
+[2024.03.14-08.11.59:236][175]CompilerResultsLog:     ???ڴ????? D:\GitHub\UECustomizeInteractionArea\CustomArea\Intermediate\Build\Win64\UE4Editor\Development\CustomArea\UE4Editor-CustomArea-2083.lib ?Ͷ??? D:\GitHub\UECustomizeInteractionArea\CustomArea\Intermediate\Build\Win64\UE4Editor\Development\CustomArea\UE4Editor-CustomArea-2083.exp
+[2024.03.14-08.11.59:236][175]CompilerResultsLog:   [4/5] UE4Editor-CustomArea-2083.dll
+[2024.03.14-08.11.59:236][175]CompilerResultsLog:     ???ڴ????? D:\GitHub\UECustomizeInteractionArea\CustomArea\Intermediate\Build\Win64\UE4Editor\Development\CustomArea\UE4Editor-CustomArea-2083.suppressed.lib ?Ͷ??? D:\GitHub\UECustomizeInteractionArea\CustomArea\Intermediate\Build\Win64\UE4Editor\Development\CustomArea\UE4Editor-CustomArea-2083.suppressed.exp
+[2024.03.14-08.11.59:236][175]CompilerResultsLog:   [5/5] CustomAreaEditor.target
+[2024.03.14-08.11.59:237][175]CompilerResultsLog: Total time in Parallel executor: 13.91 seconds
+[2024.03.14-08.11.59:237][175]CompilerResultsLog: Total execution time: 18.26 seconds
+[2024.03.14-08.11.59:237][175]LogMainFrame: MainFrame: Module compiling took 18.699 seconds
+[2024.03.14-08.11.59:261][175]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'CustomArea' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2024.03.14-08.11.59:267][175]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2024.03.14-08.11.59:345][175]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0122 seconds. Added 3824 classes and 930 folders.
+[2024.03.14-08.11.59:345][175]Display: HotReload took 18.8s.
+[2024.03.14-08.12.01:504][291]LogTemp: Repeating last play command: Selected Viewport
+[2024.03.14-08.12.01:511][291]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.14-08.12.01:512][291]PIE: New page: PIE session: NewMap (Mar 15, 2024, 12:12:01 AM)
+[2024.03.14-08.12.01:512][291]LogPlayLevel: Creating play world package: /Game/Content/UEDPIE_0_NewMap
+[2024.03.14-08.12.01:514][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001895s)
+[2024.03.14-08.12.01:514][291]LogAIModule: Creating AISystem for world NewMap
+[2024.03.14-08.12.01:515][291]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2024.03.14-08.12.01:515][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Content/NewMap.NewMap to /Game/Content/UEDPIE_0_NewMap.NewMap (0.002934s)
+[2024.03.14-08.12.01:578][291]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2024.03.14-08.12.01:579][291]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.03.14-08.12.01:580][291]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.14-08.12.01:580][291]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.14-08.12.01:580][291]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.14-08.12.01:580][291]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.14-08.12.01:580][291]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.14-08.12.01:580][291]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.14-08.12.01:580][291]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.14-08.12.01:580][291]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.14-08.12.01:580][291]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.14-08.12.01:580][291]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.14-08.12.01:580][291]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.14-08.12.01:580][291]LogAudioMixer: Display: Initializing audio mixer.
+[2024.03.14-08.12.01:586][291]LogAudioMixer: Display: 0: FrontLeft
+[2024.03.14-08.12.01:586][291]LogAudioMixer: Display: 1: FrontRight
+[2024.03.14-08.12.01:607][291]LogAudioMixer: Display: Using Audio Device 耳机 (Realtek(R) Audio)
+[2024.03.14-08.12.01:607][291]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.14-08.12.01:607][291]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.14-08.12.01:607][291]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.14-08.12.01:607][291]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.03.14-08.12.01:608][291]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.03.14-08.12.01:608][291]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.03.14-08.12.01:608][291]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.03.14-08.12.01:608][291]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.03.14-08.12.01:608][291]LogInit: FAudioDevice initialized.
+[2024.03.14-08.12.01:608][291]LogAudio: Display: Audio Device (ID: 9) registered with world 'NewMap'.
+[2024.03.14-08.12.01:616][291]LogLoad: Game class is 'GameModeBase'
+[2024.03.14-08.12.01:616][291]LogWorld: Bringing World /Game/Content/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2024.03.14-16.12.01
+[2024.03.14-08.12.01:617][291]LogWorld: Bringing up level for play took: 0.000517
+[2024.03.14-08.12.01:617][291]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2024.03.14-08.12.01:619][291]PIE: Server logged in
+[2024.03.14-08.12.01:620][291]PIE: Play in editor total start time 0.111 seconds.
+[2024.03.14-08.12.06:087][561]LogBlueprintUserMessages: [NewWidgetBlueprint_C_0] alpha1
+[2024.03.14-08.12.10:188][808]LogBlueprintUserMessages: [NewWidgetBlueprint_C_0] alpha1
+[2024.03.14-08.12.10:355][818]LogBlueprintUserMessages: [NewWidgetBlueprint_C_0] alpha1
+[2024.03.14-08.12.10:621][834]LogBlueprintUserMessages: [NewWidgetBlueprint_C_0] alpha1
+[2024.03.14-08.12.10:854][848]LogBlueprintUserMessages: [NewWidgetBlueprint_C_0] alpha1
+[2024.03.14-08.12.12:102][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.14-08.12.12:102][917]LogWorld: BeginTearingDown for /Game/Content/UEDPIE_0_NewMap
+[2024.03.14-08.12.12:102][917]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.14-08.12.12:102][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.14-08.12.12:111][917]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.14-08.12.12:120][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.14-08.12.12:138][917]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.14-08.12.12:139][917]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.03.14-08.12.12:141][917]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.03.14-08.12.12:143][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.14-08.12.12:146][917]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2024.03.14-08.12.12:175][919]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.03.14-08.14.54:172][528]LogHttp: Warning: 000001D086FB2B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCCACAE5-41A3-5293-58DB-04B003BDD5DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=e06ab7b14c69aa113406608ec70b6ead%7C3a8ce50d75a94a64b681e6c1f8715d73%7C3db8fdad-c0c9-4e4b-a295-703a53a2b9d2&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.14-08.14.54:172][528]LogHttp: Warning: 000001D086FB2B00: request failed, libcurl error: 0 (No error)
+[2024.03.14-08.14.54:172][528]LogHttp: Warning: 000001D086FB2B00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d0091848e0 [can pipeline])
+[2024.03.14-08.14.54:172][528]LogHttp: Warning: 000001D086FB2B00: libcurl info message cache 1 (Re-using existing connection! (#11) with host datarouter.ol.epicgames.com)
+[2024.03.14-08.14.54:172][528]LogHttp: Warning: 000001D086FB2B00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.226.210.153) port 443 (#11))
+[2024.03.14-08.14.54:172][528]LogHttp: Warning: 000001D086FB2B00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.14-08.14.54:172][528]LogHttp: Warning: 000001D086FB2B00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2024.03.14-08.14.54:172][528]LogHttp: Warning: 000001D086FB2B00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2024.03.14-08.14.54:172][528]LogHttp: Warning: 000001D086FB2B00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.14-08.14.54:172][528]LogHttp: Warning: 000001D086FB2B00: libcurl info message cache 7 (Closing connection 11)
+[2024.03.14-08.14.54:172][528]LogHttp: Warning: 000001D086FB2B00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2024.03.14-08.14.54:172][528]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCCACAE5-41A3-5293-58DB-04B003BDD5DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=e06ab7b14c69aa113406608ec70b6ead%7C3a8ce50d75a94a64b681e6c1f8715d73%7C3db8fdad-c0c9-4e4b-a295-703a53a2b9d2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.14-08.17.54:272][ 64]LogHttp: Warning: 000001D086FB2400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCCACAE5-41A3-5293-58DB-04B003BDD5DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=e06ab7b14c69aa113406608ec70b6ead%7C3a8ce50d75a94a64b681e6c1f8715d73%7C3db8fdad-c0c9-4e4b-a295-703a53a2b9d2&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.14-08.17.54:272][ 64]LogHttp: Warning: 000001D086FB2400: request failed, libcurl error: 0 (No error)
+[2024.03.14-08.17.54:272][ 64]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d009184cd0 [can pipeline])
+[2024.03.14-08.17.54:272][ 64]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 1 (Re-using existing connection! (#12) with host datarouter.ol.epicgames.com)
+[2024.03.14-08.17.54:272][ 64]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.216.244.230) port 443 (#12))
+[2024.03.14-08.17.54:272][ 64]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.14-08.17.54:272][ 64]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2024.03.14-08.17.54:272][ 64]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2024.03.14-08.17.54:273][ 64]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.14-08.17.54:273][ 64]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 7 (Closing connection 12)
+[2024.03.14-08.17.54:273][ 64]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2024.03.14-08.17.54:273][ 64]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCCACAE5-41A3-5293-58DB-04B003BDD5DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=e06ab7b14c69aa113406608ec70b6ead%7C3a8ce50d75a94a64b681e6c1f8715d73%7C3db8fdad-c0c9-4e4b-a295-703a53a2b9d2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.14-08.22.53:984][956]LogHttp: Warning: 000001D086FB2400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCCACAE5-41A3-5293-58DB-04B003BDD5DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=e06ab7b14c69aa113406608ec70b6ead%7C3a8ce50d75a94a64b681e6c1f8715d73%7C3db8fdad-c0c9-4e4b-a295-703a53a2b9d2&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.14-08.22.53:985][956]LogHttp: Warning: 000001D086FB2400: request failed, libcurl error: 0 (No error)
+[2024.03.14-08.22.53:985][956]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d009184bb0 [can pipeline])
+[2024.03.14-08.22.53:985][956]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 1 (Re-using existing connection! (#13) with host datarouter.ol.epicgames.com)
+[2024.03.14-08.22.53:985][956]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (44.194.78.92) port 443 (#13))
+[2024.03.14-08.22.53:985][956]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.14-08.22.53:985][956]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2024.03.14-08.22.53:985][956]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2024.03.14-08.22.53:985][956]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.14-08.22.53:985][956]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 7 (Closing connection 13)
+[2024.03.14-08.22.53:985][956]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2024.03.14-08.22.53:985][956]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCCACAE5-41A3-5293-58DB-04B003BDD5DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=e06ab7b14c69aa113406608ec70b6ead%7C3a8ce50d75a94a64b681e6c1f8715d73%7C3db8fdad-c0c9-4e4b-a295-703a53a2b9d2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.14-08.26.54:149][671]LogHttp: Warning: 000001D086FB2400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCCACAE5-41A3-5293-58DB-04B003BDD5DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=e06ab7b14c69aa113406608ec70b6ead%7C3a8ce50d75a94a64b681e6c1f8715d73%7C3db8fdad-c0c9-4e4b-a295-703a53a2b9d2&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.14-08.26.54:149][671]LogHttp: Warning: 000001D086FB2400: request failed, libcurl error: 0 (No error)
+[2024.03.14-08.26.54:149][671]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d009185330 [can pipeline])
+[2024.03.14-08.26.54:149][671]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 1 (Re-using existing connection! (#14) with host datarouter.ol.epicgames.com)
+[2024.03.14-08.26.54:149][671]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (184.73.211.59) port 443 (#14))
+[2024.03.14-08.26.54:149][671]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.14-08.26.54:149][671]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2024.03.14-08.26.54:149][671]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2024.03.14-08.26.54:149][671]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.14-08.26.54:149][671]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 7 (Closing connection 14)
+[2024.03.14-08.26.54:149][671]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2024.03.14-08.26.54:482][672]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCCACAE5-41A3-5293-58DB-04B003BDD5DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=e06ab7b14c69aa113406608ec70b6ead%7C3a8ce50d75a94a64b681e6c1f8715d73%7C3db8fdad-c0c9-4e4b-a295-703a53a2b9d2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.14-08.30.54:113][385]LogHttp: Warning: 000001D086FB2400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCCACAE5-41A3-5293-58DB-04B003BDD5DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=e06ab7b14c69aa113406608ec70b6ead%7C3a8ce50d75a94a64b681e6c1f8715d73%7C3db8fdad-c0c9-4e4b-a295-703a53a2b9d2&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.14-08.30.54:114][385]LogHttp: Warning: 000001D086FB2400: request failed, libcurl error: 0 (No error)
+[2024.03.14-08.30.54:114][385]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d009185900 [can pipeline])
+[2024.03.14-08.30.54:114][385]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 1 (Re-using existing connection! (#15) with host datarouter.ol.epicgames.com)
+[2024.03.14-08.30.54:114][385]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.84.235.110) port 443 (#15))
+[2024.03.14-08.30.54:114][385]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.14-08.30.54:114][385]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2024.03.14-08.30.54:114][385]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2024.03.14-08.30.54:114][385]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.14-08.30.54:114][385]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 7 (Closing connection 15)
+[2024.03.14-08.30.54:114][385]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2024.03.14-08.30.54:451][386]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCCACAE5-41A3-5293-58DB-04B003BDD5DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=e06ab7b14c69aa113406608ec70b6ead%7C3a8ce50d75a94a64b681e6c1f8715d73%7C3db8fdad-c0c9-4e4b-a295-703a53a2b9d2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.14-08.33.54:091][921]LogHttp: Warning: 000001D086FB2400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCCACAE5-41A3-5293-58DB-04B003BDD5DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=e06ab7b14c69aa113406608ec70b6ead%7C3a8ce50d75a94a64b681e6c1f8715d73%7C3db8fdad-c0c9-4e4b-a295-703a53a2b9d2&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.14-08.33.54:091][921]LogHttp: Warning: 000001D086FB2400: request failed, libcurl error: 0 (No error)
+[2024.03.14-08.33.54:091][921]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d009185e10 [can pipeline])
+[2024.03.14-08.33.54:091][921]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 1 (Re-using existing connection! (#16) with host datarouter.ol.epicgames.com)
+[2024.03.14-08.33.54:091][921]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.225.237.131) port 443 (#16))
+[2024.03.14-08.33.54:091][921]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.14-08.33.54:091][921]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2024.03.14-08.33.54:091][921]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2024.03.14-08.33.54:091][921]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.14-08.33.54:091][921]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 7 (Closing connection 16)
+[2024.03.14-08.33.54:091][921]LogHttp: Warning: 000001D086FB2400: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2024.03.14-08.33.54:430][922]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCCACAE5-41A3-5293-58DB-04B003BDD5DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=e06ab7b14c69aa113406608ec70b6ead%7C3a8ce50d75a94a64b681e6c1f8715d73%7C3db8fdad-c0c9-4e4b-a295-703a53a2b9d2&AppEnvironment=datacollector-binary&UploadType=eteventstream
