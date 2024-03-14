@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeCustomArea_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x3B4C6A3E,
+				0x72B884F8,
 				0x826FB5B4,
 				METADATA_PARAMS(nullptr, 0)
 			};

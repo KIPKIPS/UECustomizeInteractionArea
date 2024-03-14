@@ -14,20 +14,22 @@ class UTexture2D;
 #endif
 #define CUSTOMAREA_AlphaButton_generated_h
 
-#define CustomArea_Source_CustomArea_AlphaButton_h_47_SPARSE_DATA
-#define CustomArea_Source_CustomArea_AlphaButton_h_47_RPC_WRAPPERS \
+#define CustomArea_Source_CustomArea_AlphaButton_h_56_SPARSE_DATA
+#define CustomArea_Source_CustomArea_AlphaButton_h_56_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execgetSibIndex); \
 	DECLARE_FUNCTION(execSetAdvancedHitAlpha); \
 	DECLARE_FUNCTION(execSetAdvancedHitTexture);
 
 
-#define CustomArea_Source_CustomArea_AlphaButton_h_47_RPC_WRAPPERS_NO_PURE_DECLS \
+#define CustomArea_Source_CustomArea_AlphaButton_h_56_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execgetSibIndex); \
 	DECLARE_FUNCTION(execSetAdvancedHitAlpha); \
 	DECLARE_FUNCTION(execSetAdvancedHitTexture);
 
 
-#define CustomArea_Source_CustomArea_AlphaButton_h_47_INCLASS_NO_PURE_DECLS \
+#define CustomArea_Source_CustomArea_AlphaButton_h_56_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAlphaButton(); \
 	friend struct Z_Construct_UClass_UAlphaButton_Statics; \
@@ -36,7 +38,7 @@ public: \
 	DECLARE_SERIALIZER(UAlphaButton)
 
 
-#define CustomArea_Source_CustomArea_AlphaButton_h_47_INCLASS \
+#define CustomArea_Source_CustomArea_AlphaButton_h_56_INCLASS \
 private: \
 	static void StaticRegisterNativesUAlphaButton(); \
 	friend struct Z_Construct_UClass_UAlphaButton_Statics; \
@@ -45,7 +47,7 @@ public: \
 	DECLARE_SERIALIZER(UAlphaButton)
 
 
-#define CustomArea_Source_CustomArea_AlphaButton_h_47_STANDARD_CONSTRUCTORS \
+#define CustomArea_Source_CustomArea_AlphaButton_h_56_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAlphaButton(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAlphaButton) \
@@ -58,7 +60,9 @@ private: \
 public:
 
 
-#define CustomArea_Source_CustomArea_AlphaButton_h_47_ENHANCED_CONSTRUCTORS \
+#define CustomArea_Source_CustomArea_AlphaButton_h_56_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAlphaButton(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UAlphaButton(UAlphaButton&&); \
@@ -69,29 +73,29 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAlphaButton)
 
 
-#define CustomArea_Source_CustomArea_AlphaButton_h_47_PRIVATE_PROPERTY_OFFSET
-#define CustomArea_Source_CustomArea_AlphaButton_h_44_PROLOG
-#define CustomArea_Source_CustomArea_AlphaButton_h_47_GENERATED_BODY_LEGACY \
+#define CustomArea_Source_CustomArea_AlphaButton_h_56_PRIVATE_PROPERTY_OFFSET
+#define CustomArea_Source_CustomArea_AlphaButton_h_53_PROLOG
+#define CustomArea_Source_CustomArea_AlphaButton_h_56_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CustomArea_Source_CustomArea_AlphaButton_h_47_PRIVATE_PROPERTY_OFFSET \
-	CustomArea_Source_CustomArea_AlphaButton_h_47_SPARSE_DATA \
-	CustomArea_Source_CustomArea_AlphaButton_h_47_RPC_WRAPPERS \
-	CustomArea_Source_CustomArea_AlphaButton_h_47_INCLASS \
-	CustomArea_Source_CustomArea_AlphaButton_h_47_STANDARD_CONSTRUCTORS \
+	CustomArea_Source_CustomArea_AlphaButton_h_56_PRIVATE_PROPERTY_OFFSET \
+	CustomArea_Source_CustomArea_AlphaButton_h_56_SPARSE_DATA \
+	CustomArea_Source_CustomArea_AlphaButton_h_56_RPC_WRAPPERS \
+	CustomArea_Source_CustomArea_AlphaButton_h_56_INCLASS \
+	CustomArea_Source_CustomArea_AlphaButton_h_56_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CustomArea_Source_CustomArea_AlphaButton_h_47_GENERATED_BODY \
+#define CustomArea_Source_CustomArea_AlphaButton_h_56_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CustomArea_Source_CustomArea_AlphaButton_h_47_PRIVATE_PROPERTY_OFFSET \
-	CustomArea_Source_CustomArea_AlphaButton_h_47_SPARSE_DATA \
-	CustomArea_Source_CustomArea_AlphaButton_h_47_RPC_WRAPPERS_NO_PURE_DECLS \
-	CustomArea_Source_CustomArea_AlphaButton_h_47_INCLASS_NO_PURE_DECLS \
-	CustomArea_Source_CustomArea_AlphaButton_h_47_ENHANCED_CONSTRUCTORS \
-private: \
+	CustomArea_Source_CustomArea_AlphaButton_h_56_PRIVATE_PROPERTY_OFFSET \
+	CustomArea_Source_CustomArea_AlphaButton_h_56_SPARSE_DATA \
+	CustomArea_Source_CustomArea_AlphaButton_h_56_RPC_WRAPPERS_NO_PURE_DECLS \
+	CustomArea_Source_CustomArea_AlphaButton_h_56_INCLASS_NO_PURE_DECLS \
+	CustomArea_Source_CustomArea_AlphaButton_h_56_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class AlphaButton."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 

@@ -1,4 +1,5 @@
 D:\GitHub\UECustomizeInteractionArea\CustomArea\Intermediate\Build\Win64\UE4Editor\Development\CustomArea\Definitions.CustomArea.h
+D:\GitHub\UECustomizeInteractionArea\CustomArea\Source\CustomArea\AlphaButton.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime/UMG/Public/UMG.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Core.h
@@ -1008,5 +1009,4 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\MovieScene\Public\Movi
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceTickManager.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UMGSequenceTickManager.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UMGSequencePlayer.generated.h
-D:\GitHub\UECustomizeInteractionArea\CustomArea\Source\CustomArea\AlphaButton.h
 D:\GitHub\UECustomizeInteractionArea\CustomArea\Intermediate\Build\Win64\UE4Editor\Inc\CustomArea\AlphaButton.generated.h

@@ -19,6 +19,13 @@ void EmptyLinkFunctionForGeneratedCodeAlphaButton() {}
 	UPackage* Z_Construct_UPackage__Script_CustomArea();
 	ENGINE_API UClass* Z_Construct_UClass_UTexture2D_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(UAlphaButton::execgetSibIndex)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(int32*)Z_Param__Result=P_THIS->getSibIndex();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UAlphaButton::execSetAdvancedHitAlpha)
 	{
 		P_GET_PROPERTY(FIntProperty,Z_Param_InAlpha);
@@ -39,10 +46,44 @@ void EmptyLinkFunctionForGeneratedCodeAlphaButton() {}
 	{
 		UClass* Class = UAlphaButton::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "getSibIndex", &UAlphaButton::execgetSibIndex },
 			{ "SetAdvancedHitAlpha", &UAlphaButton::execSetAdvancedHitAlpha },
 			{ "SetAdvancedHitTexture", &UAlphaButton::execSetAdvancedHitTexture },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UAlphaButton_getSibIndex_Statics
+	{
+		struct AlphaButton_eventgetSibIndex_Parms
+		{
+			int32 ReturnValue;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UAlphaButton_getSibIndex_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AlphaButton_eventgetSibIndex_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UAlphaButton_getSibIndex_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UAlphaButton_getSibIndex_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAlphaButton_getSibIndex_Statics::Function_MetaDataParams[] = {
+		{ "Category", "AdvancedHitTest" },
+		{ "ModuleRelativePath", "AlphaButton.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAlphaButton_getSibIndex_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAlphaButton, nullptr, "getSibIndex", nullptr, nullptr, sizeof(AlphaButton_eventgetSibIndex_Parms), Z_Construct_UFunction_UAlphaButton_getSibIndex_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UAlphaButton_getSibIndex_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAlphaButton_getSibIndex_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UAlphaButton_getSibIndex_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UAlphaButton_getSibIndex()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UAlphaButton_getSibIndex_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_UAlphaButton_SetAdvancedHitAlpha_Statics
 	{
@@ -129,6 +170,11 @@ void EmptyLinkFunctionForGeneratedCodeAlphaButton() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AdvancedHitAlpha_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_AdvancedHitAlpha;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OverlapButtons_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OverlapButtons_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_OverlapButtons;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -138,6 +184,7 @@ void EmptyLinkFunctionForGeneratedCodeAlphaButton() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_CustomArea,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UAlphaButton_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UAlphaButton_getSibIndex, "getSibIndex" }, // 3138224413
 		{ &Z_Construct_UFunction_UAlphaButton_SetAdvancedHitAlpha, "SetAdvancedHitAlpha" }, // 3619555408
 		{ &Z_Construct_UFunction_UAlphaButton_SetAdvancedHitTexture, "SetAdvancedHitTexture" }, // 845240194
 	};
@@ -145,7 +192,6 @@ void EmptyLinkFunctionForGeneratedCodeAlphaButton() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAlphaButton_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "AlphaButton.h" },
 		{ "ModuleRelativePath", "AlphaButton.h" },
-		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif
 #if WITH_METADATA
@@ -166,9 +212,20 @@ void EmptyLinkFunctionForGeneratedCodeAlphaButton() {}
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UAlphaButton_Statics::NewProp_AdvancedHitAlpha = { "AdvancedHitAlpha", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAlphaButton, AdvancedHitAlpha), METADATA_PARAMS(Z_Construct_UClass_UAlphaButton_Statics::NewProp_AdvancedHitAlpha_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAlphaButton_Statics::NewProp_AdvancedHitAlpha_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UAlphaButton_Statics::NewProp_OverlapButtons_Inner = { "OverlapButtons", nullptr, (EPropertyFlags)0x0000000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UAlphaButton_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAlphaButton_Statics::NewProp_OverlapButtons_MetaData[] = {
+		{ "Category", "AdvancedHitTest" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "AlphaButton.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UAlphaButton_Statics::NewProp_OverlapButtons = { "OverlapButtons", nullptr, (EPropertyFlags)0x001000800000001d, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAlphaButton, OverlapButtons), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UAlphaButton_Statics::NewProp_OverlapButtons_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAlphaButton_Statics::NewProp_OverlapButtons_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UAlphaButton_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAlphaButton_Statics::NewProp_AdvancedHitTexture,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAlphaButton_Statics::NewProp_AdvancedHitAlpha,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAlphaButton_Statics::NewProp_OverlapButtons_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAlphaButton_Statics::NewProp_OverlapButtons,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UAlphaButton_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UAlphaButton>::IsAbstract,
@@ -197,7 +254,7 @@ void EmptyLinkFunctionForGeneratedCodeAlphaButton() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UAlphaButton, 1664892760);
+	IMPLEMENT_CLASS(UAlphaButton, 2992715820);
 	template<> CUSTOMAREA_API UClass* StaticClass<UAlphaButton>()
 	{
 		return UAlphaButton::StaticClass();
