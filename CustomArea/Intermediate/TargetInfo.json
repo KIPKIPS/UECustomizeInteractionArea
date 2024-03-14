@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CustomArea",
+			"Path": "D:\\GitHub\\UECustomizeInteractionArea\\CustomArea\\Source\\CustomArea.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CustomAreaEditor",
+			"Path": "D:\\GitHub\\UECustomizeInteractionArea\\CustomArea\\Source\\CustomAreaEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

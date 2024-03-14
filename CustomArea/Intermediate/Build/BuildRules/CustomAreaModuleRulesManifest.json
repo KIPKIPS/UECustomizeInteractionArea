@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\GitHub\\UECustomizeInteractionArea\\CustomArea\\Source\\CustomArea\\CustomArea.Build.cs",
+		"D:\\GitHub\\UECustomizeInteractionArea\\CustomArea\\Source\\CustomArea.Target.cs",
+		"D:\\GitHub\\UECustomizeInteractionArea\\CustomArea\\Source\\CustomAreaEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

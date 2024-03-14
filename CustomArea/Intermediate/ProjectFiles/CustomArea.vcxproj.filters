@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CustomArea.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{B38D048B-074D-4AE5-AA1E-FF49FC934B3F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CustomArea.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CustomAreaEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{5A679E90-E77A-4547-B9E9-B3FEF70FAA10}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CustomArea">
+      <UniqueIdentifier>{1D3D8A0F-B68B-41C3-AE71-3CE7BF1B99A9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CustomArea\AlphaButton.cpp">
+      <Filter>Source\CustomArea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CustomArea\AlphaButton.h">
+      <Filter>Source\CustomArea</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\CustomArea\CustomArea.Build.cs">
+      <Filter>Source\CustomArea</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CustomArea\CustomArea.cpp">
+      <Filter>Source\CustomArea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CustomArea\CustomArea.h">
+      <Filter>Source\CustomArea</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CustomArea\CustomAreaGameModeBase.cpp">
+      <Filter>Source\CustomArea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CustomArea\CustomAreaGameModeBase.h">
+      <Filter>Source\CustomArea</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
