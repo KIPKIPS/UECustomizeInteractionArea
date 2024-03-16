@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CustomArea.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B38D048B-074D-4AE5-AA1E-FF49FC934B3F}</UniqueIdentifier>
+      <UniqueIdentifier>{67CCCE6B-A97A-4D2F-A59C-ED3F571BD1A2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CustomArea.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5A679E90-E77A-4547-B9E9-B3FEF70FAA10}</UniqueIdentifier>
+      <UniqueIdentifier>{41EEADDC-8631-44BD-8984-3EBC6888BB17}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CustomArea">
-      <UniqueIdentifier>{1D3D8A0F-B68B-41C3-AE71-3CE7BF1B99A9}</UniqueIdentifier>
+      <UniqueIdentifier>{7801C78B-6DA8-431E-97E6-C8F7C6C002B0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\CustomArea\AlphaButton.cpp">
       <Filter>Source\CustomArea</Filter>
@@ -45,6 +45,12 @@
       <Filter>Source\CustomArea</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CustomArea\CustomAreaGameModeBase.h">
+      <Filter>Source\CustomArea</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CustomArea\CustomImage.cpp">
+      <Filter>Source\CustomArea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CustomArea\CustomImage.h">
       <Filter>Source\CustomArea</Filter>
     </ClInclude>
   </ItemGroup>
