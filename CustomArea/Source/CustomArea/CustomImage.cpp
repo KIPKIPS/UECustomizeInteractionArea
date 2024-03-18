@@ -55,13 +55,17 @@ FReply SCustomImage::OnMouseButtonUp(const FGeometry& MyGeometry, const FPointer
 			{
 				if (img.IsValid() && img->CachedOverlap)
 				{
+					UE_LOG(LogTemp,Log,TEXT("wkp up1"));
 					return img->SImage::OnMouseButtonUp(img->GetCachedGeometry(), MouseEvent);
 				}
 			}
+			UE_LOG(LogTemp,Log,TEXT("wkp up2"));
 			return FReply::Unhandled();
 		}
+		UE_LOG(LogTemp,Log,TEXT("wkp up3"));
 		return SImage::OnMouseButtonUp(MyGeometry, MouseEvent);
 	}
+	UE_LOG(LogTemp,Log,TEXT("wkp up4"));
 	return SImage::OnMouseButtonUp(MyGeometry, MouseEvent);
 }
 
@@ -90,7 +94,7 @@ void SCustomImage::OnMouseLeave(const FPointerEvent& MouseEvent)
 	}
 	return SImage::OnMouseLeave(MouseEvent);
 }
-int x=0;
+//int x=0;
 bool SCustomImage::IsMouseOverOpaquePixel(const FPointerEvent& MouseEvent)
 {
 	bool OverOpaque = true;
@@ -131,14 +135,14 @@ bool SCustomImage::IsMouseOverOpaquePixel(const FPointerEvent& MouseEvent)
 	{
 		OverOpaque = false;
 	}
-	x++;
-	if (OverOpaque)
-	{
-		UE_LOG(LogTemp,Log,TEXT("OverOpaque %d , %d"),x,ImageData[BufferPosition].A);
-	}else
-	{
-		UE_LOG(LogTemp,Error,TEXT("OverOpaque not %d , %d"),x,ImageData[BufferPosition].A);
-	}
+	//x++;
+	// if (OverOpaque)
+	// {
+	// 	UE_LOG(LogTemp,Log,TEXT("OverOpaque %d , %d"),x,ImageData[BufferPosition].A);
+	// }else
+	// {
+	// 	UE_LOG(LogTemp,Error,TEXT("OverOpaque not %d , %d"),x,ImageData[BufferPosition].A);
+	// }
 	
 	AdvancedHitTexture->PlatformData->Mips[0].BulkData.Unlock();
 	AdvancedHitTexture->CompressionSettings = OldCompressionSettings;
